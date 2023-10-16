@@ -1,7 +1,7 @@
 function generarContrasena() {
     var longitud = document.getElementById("longitud").value;
     var contrasena = generarContrasenaAleatoria(longitud);
-    document.getElementById("resultado").innerHTML = contrasena;
+    document.getElementById("resultado").innerHTML = ('Tu Contraseña es:  ' + contrasena);
   
     var tiempoRestante = 10;
     document.getElementById("tiempoRestante").innerHTML = tiempoRestante;
